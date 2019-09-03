@@ -8,7 +8,7 @@ const buttonStyles = {
     borderRadius: 60,
     fontSize: '2em',
     display: 'inline-block',
-    background: 'pink'
+    background: '#FFC1DA'
 } as React.CSSProperties;
 
 interface SoapNameGeneratorProps { firstWords:string[], secondWords:string[] }
@@ -27,7 +27,7 @@ function SoapNameGenerator(props : SoapNameGeneratorProps) {
     
     return (
         <div style={divStyles}>
-            <img src='soap.jpg'></img>
+            <img src='soap.jpg' alt=""></img>
             <div>
             <h1>{soapName}</h1>
             </div>

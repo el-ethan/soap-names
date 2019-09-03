@@ -5,6 +5,8 @@ const adjectives = [
     'passionate',
     'glamourous',
     'hot',
+    'damp',
+    'warm',
     'steamy',
     'flavorful',
     'sweet',
@@ -13,6 +15,14 @@ const adjectives = [
     'fresh',
     'melted',
     'wild',
+    'lunar',
+    'autumnal',
+    'breezy',
+    'tropical',
+    'dreamy',
+    'smooth',
+    'buttery',
+    'cool'
 ]
 
 const words = [
@@ -25,13 +35,17 @@ const words = [
     'lavender',
     'passion fruit',
     'moon', 
+    'breeze',
+    'sunshine',
     'marshmallow',
     'seaside',
-    'shore',
+    'shoreline',
     'afternoon',
     'dream',
     'banana',
-    'coconut'
+    'coconut',
+    'butter',
+    'cloudy'
 ];
 
 const firstWords = adjectives.concat(words);

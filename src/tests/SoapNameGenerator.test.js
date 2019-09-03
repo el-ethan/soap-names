@@ -7,7 +7,7 @@ it('renders without crashing', () => {
     expect(element.find('button').length).toEqual(1);
 });
 
-it('sets soap name by combining avaliable options', () => {
+it('sets soap name by combining available options', () => {
     const firstWords = ['vanilla'];
     const secondWords = ['cloud'];
     const element = shallow(<SoapNameGenerator firstWords={firstWords} secondWords={secondWords}></SoapNameGenerator>);
