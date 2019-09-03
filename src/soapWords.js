@@ -45,7 +45,7 @@ const words = [
     'banana',
     'coconut',
     'butter',
-    'cloudy'
+    'cloud'
 ];
 
 const firstWords = adjectives.concat(words);
